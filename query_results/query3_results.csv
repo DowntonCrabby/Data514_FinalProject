@@ -1,25 +1,25 @@
-,state_city,year,december_reviews_count
-0,"California, San Diego",2010,5
-1,"California, San Diego",2011,13
-2,"California, San Diego",2012,67
-3,"California, San Diego",2013,199
-4,"California, San Diego",2014,487
-5,"California, San Diego",2015,1125
-6,"California, San Diego",2016,2172
-7,"California, San Diego",2017,3416
-8,"California, San Diego",2018,5920
-9,"California, San Diego",2019,7960
-10,"California, San Diego",2020,6838
-11,"California, San Diego",2021,5081
-12,"Oregon, Portland",2010,6
-13,"Oregon, Portland",2011,12
-14,"Oregon, Portland",2012,55
-15,"Oregon, Portland",2013,203
-16,"Oregon, Portland",2014,429
-17,"Oregon, Portland",2015,904
-18,"Oregon, Portland",2016,1620
-19,"Oregon, Portland",2017,2657
-20,"Oregon, Portland",2018,4120
-21,"Oregon, Portland",2019,5050
-22,"Oregon, Portland",2020,3118
-23,"Oregon, Portland",2021,2731
+,city_state,year,december_reviews_count
+0,"Portland, OR",2010,6
+1,"Portland, OR",2011,12
+2,"Portland, OR",2012,55
+3,"Portland, OR",2013,203
+4,"Portland, OR",2014,429
+5,"Portland, OR",2015,904
+6,"Portland, OR",2016,1620
+7,"Portland, OR",2017,2657
+8,"Portland, OR",2018,4120
+9,"Portland, OR",2019,5050
+10,"Portland, OR",2020,3118
+11,"Portland, OR",2021,2731
+12,"San Diego, CA",2010,5
+13,"San Diego, CA",2011,13
+14,"San Diego, CA",2012,67
+15,"San Diego, CA",2013,199
+16,"San Diego, CA",2014,487
+17,"San Diego, CA",2015,1125
+18,"San Diego, CA",2016,2172
+19,"San Diego, CA",2017,3416
+20,"San Diego, CA",2018,5920
+21,"San Diego, CA",2019,7960
+22,"San Diego, CA",2020,6838
+23,"San Diego, CA",2021,5081

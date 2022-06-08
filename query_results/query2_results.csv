@@ -1,9 +1,9 @@
-,state_city,neighborhood,number_listings
-0,"Oregon, Portland",Northwest Industrial,0
-1,"Oregon, Portland",Woodland Park,0
-2,"California, San Diego",Bella Lago,0
-3,"California, San Diego",Fenton St,0
-4,"California, San Diego",Golf Course,0
-5,"California, San Diego",Miramar,0
-6,"California, San Diego",Thomy Locust Pl,0
-7,"California, San Diego",Village Center,0
+,city_state,neighborhood,number_listings
+0,"Portland, OR",Northwest Industrial,0
+1,"Portland, OR",Woodland Park,0
+2,"San Diego, CA",Bella Lago,0
+3,"San Diego, CA",Fenton St,0
+4,"San Diego, CA",Golf Course,0
+5,"San Diego, CA",Miramar,0
+6,"San Diego, CA",Thomy Locust Pl,0
+7,"San Diego, CA",Village Center,0
