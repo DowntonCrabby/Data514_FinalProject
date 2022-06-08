@@ -1,0 +1,38 @@
+AirBnbDataset.runCommand( {
+   collMod: "calendar",
+   validator: { 
+      $jsonSchema: {
+        bsonType: "object",
+        required: ["listing_id", "host_id"],
+        properties: {
+            listing_id: {
+               bsonType: "int",
+               description: "must be an int and is required"},
+            host_id: {
+               bsonType: "int",
+               description: "must be an int and is required"},
+            name: {
+               bsonType: "string",
+               description: "must be a string"},
+            host_name: {
+               bsonType: "string",
+               description: "must be a string"},
+            neighborhood: {
+               bsonType: "string",
+               description: "must be a string"},
+            description: {
+               bsonType: "string",
+               description: "must be a string"},
+            room_type: {
+              enum: ["Entire home/apt", "Private room", "Shared room", "Hotel room", null ],
+              description: "can only be one of the enum values"},
+            host_is_superhost: {
+               bsonType: "bool",
+               description: "must be a bool"},
+            review_scores_value: {
+               bsonType: "decimal",
+               description: "must be a decimal"},
+    }
+  },
+   validationLevel: "moderate"
+})

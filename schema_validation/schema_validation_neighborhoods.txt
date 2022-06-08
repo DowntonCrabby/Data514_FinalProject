@@ -1,0 +1,17 @@
+AirBnbDataset.runCommand( {
+   collMod: "neighborhoods",
+   validator: { 
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["neighborhood", "city_state"],
+         properties: {
+            neighborhood: {
+               bsonType: "string",
+               description: "must be a string and is required"},
+            city_state: {
+               bsonType: "string",
+               description: "must be a string and is required"},
+    }
+  },
+   validationLevel: "moderate"
+})

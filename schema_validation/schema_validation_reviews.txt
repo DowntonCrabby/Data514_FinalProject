@@ -1,0 +1,26 @@
+AirBnbDataset.runCommand( {
+   collMod: "reviews",
+   validator: { 
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["listing_id", "reviewer_id", "date"],
+         properties: {
+            listing_id: {
+               bsonType: "int",
+               description: "must be an int and is required"},
+            review_id: {
+               bsonType: "int",
+               description: "must be an int and is required"},
+            date: {
+               bsonType: "date",
+               description: "must be a date and is required"},
+            reviewer_name: {
+               bsonType: "string",
+               description: "must be a string"},
+            comments: {
+               bsonType: "string",
+               description: "must be a string"},
+    }
+  },
+   validationLevel: "moderate"
+})

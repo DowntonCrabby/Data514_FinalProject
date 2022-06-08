@@ -1,0 +1,32 @@
+AirBnbDataset.runCommand( {
+   collMod: "calendar",
+   validator: { 
+      $jsonSchema: {
+        bsonType: "object",
+        required: ["listing_id", "date" ,"available"],
+        properties: {
+            listing_id: {
+               bsonType: "int",
+               description: "must be an int and is required"},
+            date: {
+               bsonType: "date",
+               description: "must be a date and is required"},
+            available: {
+               bsonType: "bool",
+               description: "must be a bool and is required"},
+            price: {
+               bsonType: "decimal",
+               description: "must be a decimal"},
+            adjusted_price: {
+               bsonType: "decimal",
+               description: "must be a decimal"},
+            minimum_nights: {
+               bsonType: "int",
+               description: "must be an int"},
+            maximum_nights: {
+               bsonType: "int",
+               description: "must be an int"},
+    }
+  },
+   validationLevel: "moderate"
+})
